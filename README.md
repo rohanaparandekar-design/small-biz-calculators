@@ -1,4 +1,4 @@
-# Small Business Calculators
+# Small Business Decision Calculators
 
 Three simple calculators for small business decisions, in a Streamlit app:
 

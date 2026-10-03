@@ -10,11 +10,10 @@ The math is in `calculators.py` (pure functions, no input/output). `app.py` is t
 
 ## How to run
 
-```bash
+cd small-biz-calculators
 pip install -r requirements.txt
-streamlit run app.py
-pytest
-```
+python3 -m streamlit run app.py
+python3 -m pytest
 
 ## Formulas
 
@@ -47,3 +46,4 @@ Change in profit = proposed operating profit − current operating profit.
 - **Promotion Break-Even**: average sale is after discounts, and variable cost includes fulfillment and transaction costs. The result is a threshold. It does not predict demand or prove the promotion caused a sale.
 - **Price & Cost Changes**: uses an average sale. Variable cost and fixed costs are the same in both scenarios. Price changes often affect sales volume, so try different proposed volumes.
 - If a sale doesn't make money (contribution of 0 or less), break-even is reported as not reachable.
+- If the AI tool's monthly value after cost is 0 or less, setup payback is reported as not recovered.
